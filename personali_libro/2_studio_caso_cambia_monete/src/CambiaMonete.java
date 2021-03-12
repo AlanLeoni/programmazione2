@@ -1,4 +1,5 @@
 import java.util.Scanner;
+@SuppressWarnings("resource")
 
 public class CambiaMonete {
 
