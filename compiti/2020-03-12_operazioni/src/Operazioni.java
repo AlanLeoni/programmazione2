@@ -14,14 +14,14 @@ attraverso il metodo System.out.println(....)
 public class Operazioni {
 
 	public static void main(String[] args) {
-	double addendoUno = 4.0, addendoDue = 5.0, addizione, sottrazione, moltiplicazione, divIntera;	
+	double addendoUno = 4.0, addendoDue = 5.0, addizione, sottrazione, moltiplicazione, divisione;	
 	addizione = addendoUno + addendoDue;
 	System.out.println("Risultato " + addendoUno +  " + " + addendoDue + " = " + addizione );
 	sottrazione = addendoUno - addendoDue;
 	System.out.println("Risultato " + addendoUno +  " - " + addendoDue + " = " + sottrazione);
 	moltiplicazione = addendoUno * addendoDue;
 	System.out.println("Risultato " + addendoUno +  " * " + addendoDue + " = " + moltiplicazione );
-	divIntera = addendoUno / addendoDue;
-	System.out.println("Risultato " + addendoUno +  " / " + addendoDue + " = " + divIntera);
+	divisione = addendoUno / addendoDue;
+	System.out.println("Risultato " + addendoUno +  " / " + addendoDue + " = " + divisione);
 	}
 }
